@@ -7,7 +7,7 @@ RUN apk add --no-cache \
         python3 \
         py3-psycopg2
 
-RUN pip3 install --no-cache-dir ara[server]==1.0.1
+RUN pip3 install --no-cache-dir ara[server]==1.1.0
 
 EXPOSE 8000
 
